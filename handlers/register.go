@@ -4,11 +4,10 @@ import (
 	"log"
 	"time"
 
-	"goethe/auth"
-	"goethe/data"
-	"goethe/db"
-	// "goethe/util"
-	"goethe/views/components"
+	"spi2c/auth"
+	"spi2c/data"
+	"spi2c/db"
+	"spi2c/views/components"
 
 	"github.com/labstack/echo/v4"
 )

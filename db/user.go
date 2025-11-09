@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"goethe/data"
+	"spi2c/data"
 
 	_ "github.com/lib/pq"
 	_ "embed"

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"goethe/data"
-	"goethe/env"
-	"goethe/util"
+	"spi2c/data"
+	"spi2c/env"
+	"spi2c/util"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
@@ -65,7 +65,7 @@ func CreateJWT(u data.User, remember bool) (string, error) {
 		ExpiresAt: expiresAt,
 		IssuedAt:  jwt.NewNumericDate(time.Now()),
 		NotBefore: jwt.NewNumericDate(time.Now()),
-		Issuer:    "goethe",
+		Issuer:    "spi2c",
 		Subject:   u.Username,
 		ID:        strconv.Itoa(u.ID),
 		// Audience:  []string{"somebody_else"},

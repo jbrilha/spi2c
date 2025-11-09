@@ -1,10 +1,10 @@
 package main
 
 import (
-	"goethe/config"
-	"goethe/db"
-	"goethe/env"
-	"goethe/util/policy"
+	"spi2c/config"
+	"spi2c/db"
+	"spi2c/env"
+	"spi2c/util/policy"
 
 	"github.com/labstack/echo/v4"
 )

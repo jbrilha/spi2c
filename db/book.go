@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"log"
 
-	"goethe/data"
+	"spi2c/data"
 )
 
 func InsertBook(b *data.Book) (int, error) {

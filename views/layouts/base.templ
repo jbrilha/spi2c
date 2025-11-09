@@ -1,17 +1,17 @@
 package layouts
 
-import "goethe/views/components"
+import "spi2c/views/components"
 
 templ Base() {
 	<!DOCTYPE html>
-	<html lang="en">
+    <html lang="en" class="font-family-lapture">
 		<head>
-			<title>Goethe</title>
+			<title>SPI2C</title>
 			<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
 			<meta charset="UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<link rel="stylesheet" href="/public/tailwind.css"/>
-			<script src="https://unpkg.com/htmx.org@2.0.1" integrity="sha384-QWGpdj554B4ETpJJC9z+ZHJcA/i59TyjxEPXiiUgN2WmTyV5OEZWCD6gQhgkdpB/" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.js" integrity="sha384-ezjq8118wdwdRMj+nX4bevEi+cDLTbhLAeFF688VK8tPDGeLUe0WoY2MZtSla72F" crossorigin="anonymous"></script>
 			<script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
 		</head>
 		<body id="base" class="antialiased flex flex-col min-h-svh">
@@ -51,7 +51,7 @@ templ Footer() {
 		<div class="row-auto py-1">
 			<div class="flex justify-center items-center px-4">
 				<div class="font-bold hover:underline">
-					<a href="https://github.com/jbrilha/goethe" target="_blank" rel="noopener noreferrer">
+					<a href="https://github.com/jbrilha/spi2c" target="_blank" rel="noopener noreferrer">
 						Source (GitHub)
 					</a>
 				</div>

@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"goethe/views/components"
+	"spi2c/views/components"
 	"math/rand"
 
 	"github.com/a-h/templ"

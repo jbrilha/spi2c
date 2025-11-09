@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"goethe/db"
-	"goethe/views/profile"
+	"spi2c/db"
+	"spi2c/views/profile"
 
 	"github.com/labstack/echo/v4"
 )

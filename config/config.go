@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	ansi "goethe/util"
+	ansi "spi2c/util"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"goethe/views/home"
+	"spi2c/views/home"
 
 	"github.com/labstack/echo/v4"
 )

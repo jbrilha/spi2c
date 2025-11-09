@@ -1,8 +1,8 @@
 package config
 
 import (
-	"goethe/auth"
-	"goethe/handlers"
+	"spi2c/auth"
+	"spi2c/handlers"
 
 	"github.com/labstack/echo/v4"
 )

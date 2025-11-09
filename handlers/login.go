@@ -3,11 +3,11 @@ package handlers
 import (
 	"log"
 
-	"goethe/auth"
-	"goethe/data"
-	"goethe/db"
+	"spi2c/auth"
+	"spi2c/data"
+	"spi2c/db"
 
-	"goethe/views/components"
+	"spi2c/views/components"
 
 	"github.com/labstack/echo/v4"
 )

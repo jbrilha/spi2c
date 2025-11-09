@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 
-	"goethe/util"
+	"spi2c/util"
 
 	"github.com/a-h/templ"
 	"github.com/labstack/echo/v4"

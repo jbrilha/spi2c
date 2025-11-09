@@ -1,5 +1,3 @@
-# goethe
-
-*Eventually* a Goodreads-esque place for me to log my books and stuff
+# SPI<sup>2</sup>C
 
 Using this to learn Go and HTMX

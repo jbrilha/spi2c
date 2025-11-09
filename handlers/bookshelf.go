@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"log"
-	"goethe/data"
-	"goethe/db"
-	"goethe/views/bookshelf"
+	"spi2c/data"
+	"spi2c/db"
+	"spi2c/views/bookshelf"
 
 	"github.com/labstack/echo/v4"
 )

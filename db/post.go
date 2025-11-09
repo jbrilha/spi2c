@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"goethe/data"
+	"spi2c/data"
 
 	sq "github.com/Masterminds/squirrel"
 
