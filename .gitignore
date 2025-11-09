@@ -12,3 +12,6 @@ bin/
 
 # tailwind
 tailwind.css
+
+# templ
+*_templ.go
